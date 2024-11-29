@@ -1,4 +1,4 @@
-/*
+
 //1. create an array of 5 person objects, the objhects should contain first name last name, age and job properties, jobb should be a boolean.
 //------------------------------------------------------------------------------------------------------------------------------------------------
 //Answer:
@@ -135,7 +135,7 @@ sendToUniversity(person, 'bachelors');
 //feel free to change the ID of the images and/or add css.
 //------------------------------------------------------------------------------------------------------------------------------------------------
 //Answer:
-*/
+
 
 fetch("https://dog.ceo/api/breed/hound/images/random")
   .then((response) => {
