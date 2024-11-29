@@ -79,7 +79,7 @@ const fullName = [
   },
 ];
 
-console.log(firstName[1].fullName());
+//console.log(firstName[1].fullName());
 
 //4. Its the third person's birthday! And their job status changed. Update their age and job status using dot notation.
 //------------------------------------------------------------------------------------------------------------------------------------------------
@@ -126,8 +126,8 @@ function sendToUniversity(person, degree) {
 }
 
 
-let person = { name: 'Vladimir Harkonnen', age: 58 };
-sendToUniversity(person, 'bachelors');
+//let person = { name: 'Vladimir Harkonnen', age: 58 };
+//sendToUniversity(person, 'bachelors');
 
 // 7. API TIME!
 // Read the documentation of this dog API: https://dog.ceo/dog-api/documentation/
