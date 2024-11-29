@@ -1,4 +1,3 @@
-
 //1. create an array of 5 person objects, the objhects should contain first name last name, age and job properties, jobb should be a boolean.
 //------------------------------------------------------------------------------------------------------------------------------------------------
 //Answer:
@@ -110,24 +109,23 @@ persons.forEach(fotballPubben);
 //------------------------------------------------------------------------------------------------------------------------------------------------
 // Answer:
 function sendToUniversity(person, degree) {
-    if (degree === 'bachelors') {
-        person.age += 3; // Assuming a bachelor's degree takes 3 years
-        person.degree = 'Bachelors';
-        person.studentLoan = 20000; // Example loan amount
-    } else if (degree === 'masters') {
-        person.age += 2; // Assuming a master's degree takes 2 years
-        person.degree = 'Masters';
-        person.studentLoan = 30000; // Example loan amount
-    } else {
-        console.log('Invalid degree type');
-        return;
-    }
-    console.log(person);
+  if (degree === "bachelors") {
+    person.age += 3; // Assuming a bachelor's degree takes 3 years
+    person.degree = "Bachelors";
+    person.studentLoan = 20000; // Example loan amount
+  } else if (degree === "masters") {
+    person.age += 2; // Assuming a master's degree takes 2 years
+    person.degree = "Masters";
+    person.studentLoan = 30000; // Example loan amount
+  } else {
+    console.log("Invalid degree type");
+    return;
+  }
+  console.log(person);
 }
 
-
-//let person = { name: 'Vladimir Harkonnen', age: 58 };
-//sendToUniversity(person, 'bachelors');
+//let person = { name: "Vladimir Harkonnen", age: 58 };
+//sendToUniversity(person, "bachelors");
 
 // 7. API TIME!
 // Read the documentation of this dog API: https://dog.ceo/dog-api/documentation/
@@ -135,7 +133,6 @@ function sendToUniversity(person, degree) {
 //feel free to change the ID of the images and/or add css.
 //------------------------------------------------------------------------------------------------------------------------------------------------
 //Answer:
-
 
 fetch("https://dog.ceo/api/breed/hound/images/random")
   .then((response) => {
@@ -154,3 +151,4 @@ fetch("https://dog.ceo/api/breed/hound/images/random")
 //BONUS!!
 //create a way for you to change the breed of the dogs displayed on your page
 //------------------------------------------------------------------------------------------------------------------------------------------------
+
