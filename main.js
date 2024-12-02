@@ -110,13 +110,13 @@ persons.forEach(fotballPubben);
 // Answer:
 function sendToUniversity(person, degree) {
   if (degree === "bachelors") {
-    person.age += 3; // Assuming a bachelor's degree takes 3 years
+    person.age += 3; 
     person.degree = "Bachelors";
-    person.studentLoan = 20000; // Example loan amount
+    person.studentLoan = 20000; 
   } else if (degree === "masters") {
-    person.age += 2; // Assuming a master's degree takes 2 years
+    person.age += 2; 
     person.degree = "Masters";
-    person.studentLoan = 30000; // Example loan amount
+    person.studentLoan = 30000; 
   } else {
     console.log("Invalid degree type");
     return;
